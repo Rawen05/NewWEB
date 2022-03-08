@@ -617,3 +617,23 @@ a {
 .plan {
   transition: transform 0.2s ease-out;
 }
+.features {
+  gap: 4rem 2rem;
+  margin: 12rem 0;
+}
+.features:first-of-type {
+  margin-top: 6rem;
+}
+.features__heading {
+  margin: 1rem 0;
+}
+
+.features__image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .features:nth-of-type(even) .features__content {
+    order: 2;
+  }
+}
