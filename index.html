@@ -15,50 +15,56 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section class="block">
-      <header class="block__header">
-        <h2>What Customer Say About Us</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
-          explicabo.
-        </p>
-      </header>
-      <div class="container">
-        <div class="card testimonial">
-          <div class="grid grid--1x2">
-            <div class="testimonial__image">
-              <img src="images/testimonial.jpg" alt="Happy Smiliy Customer" />
-              <span class="icon-container icon-container--accent">
-                <svg class="icon icon--white icon--small">
-                  <use xlink:href="images/sprite.svg#quotes"></use>
-                </svg>
-              </span>
-            </div>
-            <blockquote class="quote">
-              <p class="quote__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error,
-                consequuntur eaque blanditiis earum voluptatum nobis enim
-                voluptatibus Lorem ipsum dolor sit amet Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Molestiae, ipsam.
-              </p>
-              <footer>
-                <div class="media">
-                  <div class="media__image">
-                    <svg class="icon icon--primary quote__line">
-                      <use xlink:href="images/sprite.svg#line"></use>
-                    </svg>
-                  </div>
-                  <div class="media__body">
-                    <h3 class="media__title quote__author">John Smith</h3>
-                    <p class="quote__organization">CEO Of Rawen Company</p>
-                  </div>
-                </div>
-              </footer>
-            </blockquote>
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer_heading">Item 1</h2>
+            <img
+              class="icon icon--white collapsible__chevron"
+              src="images/chevron.svg"
+            />
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">website hosting</a></li>
+              <li><a href="#">free automated wordpress</a></li>
+              <li><a href="#">migriations</a></li>
+            </ul>
           </div>
-        </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer_heading">Item 2</h2>
+            <img
+              class="icon icon--white collapsible__chevron"
+              src="images/chevron.svg"
+            />
+          </header>
+          <div class="collapsible__content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat,
+            dolorum?
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer_heading">Item 3</h2>
+            <img
+              class="icon icon--white collapsible__chevron"
+              src="images/chevron.svg"
+            />
+          </header>
+          <div class="collapsible__content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat,
+            dolorum?
+          </div>
+        </section>
+        <section class="footer_brand">
+          <img src="images/logo.svg" />
+          <p class="footer_copyright">Copyright 2022 Rawen Omer</p>
+        </section>
       </div>
-    </section>
+    </footer>
     <script src="js/main.js"></script>
   </body>
 </html>
