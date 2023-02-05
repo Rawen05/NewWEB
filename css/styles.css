@@ -6,6 +6,7 @@
   --color-body: #918ca4;
   --color-body-darker: #5c5577;
   --color-border: #ccc;
+
 }
 
 *,
@@ -14,7 +15,7 @@
   box-sizing: border-box;
 }
 ::selection {
-  color: white;
+  color: rgb(188, 12, 12);
   background-color: var(--color-primary);
 }
 html {
